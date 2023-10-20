@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="block">
+ <div class="d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="mb-4">Memory Game</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-8">
+                <div class="grid" id="game-grid">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" id="game-info" style="display: none;">
+                <div class="text-center">
+                    <h3 class="mb-3">Puntaje</h3>
+                    <p id="score-counter">Puntos: 0</p>
+                    <h3 class="mb-3">Tiempo</h3>
+                    <p id="timer">Tiempo restante: 60 segundos</p>
+                    <button id="restart-btn" class="btn btn-block mt-4">Reiniciar Juego</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <button id="start-btn" class="btn btn-primary">Jugar</button>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

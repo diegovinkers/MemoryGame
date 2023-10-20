@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    background-color: rgba(4, 20, 102, 0.738);
+    color: 6rgb(10, 3, 63);
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffebcd;
+}
+
+.grid div {
+    background: url('./images/0.png');
+    cursor: pointer;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.grid div.flip {
+    background-size: cover;
+}
+
+.block {
+    background-color: blanchedalmond;
+    padding: 4%;
+}
+
+#restart-btn {
+        background-color: rgb(215, 33, 33);
+        color: blanchedalmond;
+}
